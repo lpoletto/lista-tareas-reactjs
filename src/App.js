@@ -64,8 +64,6 @@ function App() {
     } catch (error) {
       console.error(error);
     }
-
-    console.log(tarea);
   }
 
   const eliminarTarea = async (id) => {
